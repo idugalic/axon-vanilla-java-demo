@@ -56,7 +56,6 @@ public class AxonVanillaJavaDemoApplication {
         GiftCardRecord giftCardRecord = config.queryGateway().query(new FindGiftCardQry(randomId), GiftCardRecord.class).getNow(new GiftCardRecord("0", Integer.MIN_VALUE, Integer.MIN_VALUE));
         log.info("Result from `find card query`: " + giftCardRecord);
 
-        /* Shutdown */
         config.shutdown();
     }
 }
