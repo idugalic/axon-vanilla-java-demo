@@ -19,17 +19,17 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <dependency>
         <groupId>org.axonframework</groupId>
         <artifactId>axon-configuration</artifactId>
-        <version>4.0.3</version>
+        <version>4.2</version>
     </dependency>
     <dependency>
         <groupId>org.axonframework</groupId>
         <artifactId>axon-server-connector</artifactId>
-        <version>4.0.3</version>
+        <version>4.2</version>
     </dependency>
     <dependency>
         <groupId>org.axonframework</groupId>
         <artifactId>axon-test</artifactId>
-        <version>4.0.3</version>
+        <version>4.2</version>
         <scope>test</scope>
     </dependency>
     <dependency>
