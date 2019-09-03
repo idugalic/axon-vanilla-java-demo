@@ -54,5 +54,10 @@ public class AxonVanillaJavaDemoApplication {
         /* Making an explicit query to the read model */
         GiftCardRecord giftCardRecord = config.queryGateway().query(new FindGiftCardQry(randomId), GiftCardRecord.class).getNow(new GiftCardRecord("0", Integer.MIN_VALUE, Integer.MIN_VALUE));
         log.info("Result from `find card query`: " + giftCardRecord);
+
+
+        config.shutdown(); // https://github.com/AxonFramework/AxonFramework/issues/891
+        System.exit(0);
+
     }
 }
