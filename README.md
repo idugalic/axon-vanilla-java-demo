@@ -1,4 +1,4 @@
-# axon-vanilla-java-demo
+# [projects](http://idugalic.github.io/projects)/axon-vanilla-java-demo
 
 To make the configuration of the infrastructure components easier and to define their relationship with each of the functional components, Axon provides a Java Configuration API. 
 
