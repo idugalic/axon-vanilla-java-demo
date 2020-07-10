@@ -1,4 +1,4 @@
-# [projects](http://idugalic.github.io/projects)/axon-vanilla-java-demo
+# [projects](http://idugalic.github.io/projects)/axon-vanilla-java-demo ![Java CI with Maven](https://github.com/idugalic/axon-vanilla-java-demo/workflows/Java%20CI%20with%20Maven/badge.svg)
 
 To make the configuration of the infrastructure components easier and to define their relationship with each of the functional components, Axon provides a Java Configuration API. 
 
